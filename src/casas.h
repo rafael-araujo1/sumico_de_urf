@@ -5,4 +5,14 @@
 
 typedef enum { VAZIA, COMBATE, TESOURO, CURA, CHEFAO, } TipoCasa;
 
+
+typedef struct {
+    TipoCasa tipo;
+    Monstro *monstro;
+    Tesouro *tesouro;
+    Chefao *chefao;
+    Cura *cura;
+    int visitada;
+} Casa;
+
 #endif
