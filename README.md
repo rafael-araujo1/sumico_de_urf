@@ -410,4 +410,4 @@ Aaa.
 Assista no XXX: link
 
 ## Aviso Legal
-Este é um projeto acadêmico sem fins lucrativos. **[O Sumiço de URF]** não é endossado pela Riot Games e não reflete as visões ou opiniões da Riot Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de League of Legends. League of Legends, Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc.
+Este é um projeto acadêmico sem fins lucrativos. **O Sumiço de URF** não é endossado pela Riot Games e não reflete as visões ou opiniões da Riot Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de League of Legends. League of Legends, Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc.
