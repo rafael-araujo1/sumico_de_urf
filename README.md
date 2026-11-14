@@ -125,7 +125,18 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 </p>
 <br>
 
-## Galeria de Monstros e Vilões
+## Galeria de Armadilha, Monstros e Chefões
+
+<p style="text-align: justify">
+    <b><i>Muda</i> [Armadilha]</b>
+</p>
+<img src="images/armadilha/muda.png" alt="muda" width="600" height="350">
+<br><br>
+
+<p style="text-align: justify">
+    <b>Descrição de Personagem:</b> Estas plantinhas irritantes estão por toda parte. Um encontro com elas significa perder um pouco de vida.
+</p>
+<br>
 
 <p style="text-align: justify">
     <b><i>Espiã da Rosa Negra</i> [Monstro]</b>
@@ -146,9 +157,9 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <br>
 
 <p style="text-align: justify">
-    <b><i>LeBlanc, A Farsante</i> [Vilão]</b>
+    <b><i>LeBlanc, A Farsante</i> [Chefão]</b>
 </p>
-<img src="images/viloes/leblanc.jpg" alt="leblanc" width="600" height="350">
+<img src="images/chefoes/leblanc.jpg" alt="leblanc" width="600" height="350">
 <br><br>
 
 | Classe                | Habilidade Especial | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
@@ -182,9 +193,9 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <br>
 
 <p style="text-align: justify">
-    <b><i>Mordekaiser, O Ravenã de Ferro</i> [Vilão]</b>
+    <b><i>Mordekaiser, O Ravenã de Ferro</i> [Chefão]</b>
 </p>
-<img src="images/viloes/mordekaiser.jpg" alt="mordekaiser" width="600" height="350">
+<img src="images/chefoes/mordekaiser.jpg" alt="mordekaiser" width="600" height="350">
 <br><br>
 
 | Classe                | Habilidade Especial | Vida   | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
@@ -218,9 +229,9 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <br>
 
 <p style="text-align: justify">
-    <b><i>Veigar, O Pequeno Mestre do Mal</i> [Vilão]</b>
+    <b><i>Veigar, O Pequeno Mestre do Mal</i> [Chefão]</b>
 </p>
-<img src="images/viloes/veigar.jpg" alt="veigar" width="600" height="350">
+<img src="images/chefoes/veigar.jpg" alt="veigar" width="600" height="350">
 <br><br>
 
 | Classe                | Habilidade Especial    | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
@@ -236,6 +247,17 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <br>
 
 ## Galeria de Itens
+
+<p style="text-align: justify">
+    <b><i>Poção de Vida</i> [Item de Cura]</b>
+</p>
+<img src="images/itens/pocao_de_vida.png" alt="pocao de vida" width="350" height="350">
+<br><br>
+
+<p style="text-align: justify">
+    <b>Descrição do Item:</b> Recupera uma quantidade razoável de vida. Pode ser encontrada andando por aqui e por ali.
+</p>
+<br>
 
 <p style="text-align: justify">
     <b><i>Anel de Doran</i> [Item Inicial]</b>
@@ -347,10 +369,45 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 </p>
 <br>
 
+## Mecânica de Jogo
+### Dinâmica Geral
+* **Movimentação:** O Jogador lança um dado de seis lados (D6) para se mover pelo tabuleiro (matriz).  
+* **Casas:** Cada casa possui um tipo (representado por enum). São eles: Vazia, Combate, Tesouro, Cura ou Chefão.
+* **Combate por turnos:** Ao entrar em combate (casa Combate ou casa Chefão), o Jogador pode entre 4 ações (Atacar | Defender | Habilidade Especial | Fugir). O Jogador sempre age primeiro, depois o inimigo (Monstro ou Chefão). O combate segue até que o Jogador ou o inimigo morra, ou o Jogador realize uma fuga bem-sucedida.
+* **Recompensa e evolução:** Durante a campanha, é possível evoluir o seu Campeão.
+  * Ao derrotar um inimigo: Campeão recebe pontos em todos os seus atributos.
+  * Ao cair numa casa Cura: o Campeão encontra uma Poção de Vida e recupera um pouco da sua vida.
+  * Ao cair numa casa Tesouro: o Campeão pode escolher um Item Intermediário, capaz de aumantar Poder de Habilidade, Dano de Ataque ou Armadura e Resistência Mágica.
+  * Ao derrotar LeBlanc e Mordekaiser: o Campeão pode escolher um Item Lendário, capaz de aumantar Poder de Habilidade, Dano de Ataque ou Armadura e Resistência Mágica.
+  * Ao derrotar todos os Monstros e Chefões presentes no tabuleiro antes de encontrar Veigar: o Campeão recebe Anjo Guardião, que lhe concede uma vida a mais no jogo.
+* **Chefão:** Cada região (fase) possui um Chefão a ser derrotado. Derrote-o para avançar para a região seguinte.
+* **Fim do Jogo:** O jogo acaba quando o Jogador derrota Veigar ou se sua Vida chegar a zero. 
+* **Exemplo de interação:**
+  1. Jogador encontra um Inimigo.
+  2. Escolhe uma ação: Atacar | Defender | Habilidade Especial | Fugir
+  3. Jogador rola dado (D20).
+  4. Programa calcula dano: (dado + atributo) * % bônus de Item
+  5. Compara com a defesa do Inimigo e aplica o dano.
+  6. Se o Inimigo sobreviver, ele realiza seu ataque (também com um D20).
+  7. O Combate continua até que a Vida de um dos dois chegue a zero.
+  8. Se o Jogador vencer, recebe a recompensa e o jogo continua.
+* **Casas no Tabuleiro:**
+  * **Vazia:** nada acontece.
+  * **Combate:** Entra em combate com um Monstro da região (Espiã da Rosa Negra, Espectros Agrilhoados e Tenor do Terror)
+  * **Tesouro:** Escolhe um Item Intermediário (Bastão Desnecessariamente Grande, Espada G.p.C., Passos de Mercúrio)
+  * **Cura:** Encontra uma Poção de Vida, que restaura um pouco da Vida. A cura pode ultrapassar o limite de pontos de Vida.
+  * **Chefão:** Entra em combate com o Chefão da região (LeBlanc, Mordekaiser, Veigar)
+  
 ## Como compilar e jogar
 1. Instale o gcc ('sudo apt install build-essential')
 2. Compile: 'gcc -Wall -Wextra -o jogo src/main.c -lm'
 3. Execute: './jogo'
 
+## Sobre o código
+Aaa.
+
 ## Vídeo de Demonstração
 Assista no XXX: link
+
+## Aviso Legal
+Este é um projeto acadêmico sem fins lucrativos. **[O Sumiço de URF]** não é endossado pela Riot Games e não reflete as visões ou opiniões da Riot Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de League of Legends. League of Legends, Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc.
