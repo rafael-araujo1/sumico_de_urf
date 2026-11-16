@@ -23,7 +23,7 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <p style="text-align: justify">
     Quem descobriu isso foi o <b><i>Ryze, O Mago Rúnico de Runeterra.</i></b>
 </p>
-<img src="images/personagens/ryze.jpg" alt="ryze" width="600" height="350">
+<img src="images/campeoes/ryze.jpg" alt="ryze" width="600" height="350">
 <p style="text-align: justify">
     Vagando pelo mundo há muito, muito (muitíssimo!) tempo mesmo, ele sempre estava alerta em relação a qualquer evento que pudesse por Runeterra em perigo - algo normal depois de viver por tantas e tantas eras.
 </p>
@@ -36,7 +36,7 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <p style="text-align: justify">
     <b><i>Kai'sa, A Filha do Vazio.</i></b>
 </p>
-<img src="images/personagens/kai'sa.jpg" alt="kai'sa" width="600" height="350">
+<img src="images/campeoes/kai'sa.jpg" alt="kai'sa" width="600" height="350">
 <p style="text-align: justify">
     Levada para o Vazio ainda quando era apenas uma garotinha, quando sua vila foi atacada pelos monstros do Vazio, Kai'sa mudou completamente nesse mundo selvagem. Lá, era matar ou morrer!
 </p>
@@ -55,7 +55,7 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <p style="text-align: justify">
     <b><i>Volibear, A Tempestade Implacável.</i></b>
 </p>
-<img src="images/personagens/volibear.jpg" alt="volibear" width="600" height="350">
+<img src="images/campeoes/volibear.jpg" alt="volibear" width="600" height="350">
 <p style="text-align: justify">
     Volibear é um dos antigos semideuses de Freljord. Irmão de Ornn, semideus freljordano da forja e artesanato, e Anivia, semideusa freljordana do inverno e da vida.
 </p>
@@ -69,12 +69,12 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
     E assim, o destino de Runeterra estava nas mãos deste trio improvável...
 </p>
 
-## Galeria de Personagens (Heróis)
+## Galeria de Campeões (Heróis)
 
 <p style="text-align: justify">
     <b><i>Ryze, O Mago Rúnico.</i></b>
 </p>
-<img src="images/personagens/ryze.jpg" alt="ryze" width="600" height="350">
+<img src="images/campeoes/ryze.jpg" alt="ryze" width="600" height="350">
 <br><br>
 
 | Classe                | Habilidade Especial | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
@@ -92,7 +92,7 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <p style="text-align: justify">
     <b><i>Kai'sa, A Filha do Vazio.</i></b>
 </p>
-<img src="images/personagens/kai'sa.jpg" alt="kai'sa" width="600" height="350">
+<img src="images/campeoes/kai'sa.jpg" alt="kai'sa" width="600" height="350">
 <br><br>
 
 | Classe                                  | Habilidade Especial     | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
@@ -110,7 +110,7 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <p style="text-align: justify">
     <b><i>Volibear, A Tempestade Implacável.</i></b>
 </p>
-<img src="images/personagens/volibear.jpg" alt="volibear" width="600" height="350">
+<img src="images/campeoes/volibear.jpg" alt="volibear" width="600" height="350">
 <br><br>
 
 | Classe                | Habilidade Especial         | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
@@ -198,9 +198,9 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <img src="images/chefoes/mordekaiser.jpg" alt="mordekaiser" width="600" height="350">
 <br><br>
 
-| Classe                | Habilidade Especial | Vida   | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
-|-----------------------|---------------------|--------|-----------------|---------------------|-----------|---------------------|
-| Mago                  | Reino da Morte      | 1100   | 60              | 100                 | 35        | 30                  |
+| Classe                  | Habilidade Especial | Vida   | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
+|-------------------------|---------------------|--------|-----------------|---------------------|-----------|---------------------|
+| Tanque                  | Reino da Morte      | 1100   | 60              | 100                 | 35        | 30                  |
 
 <p style="text-align: justify">
     <b>Descrição de Personagem:</b> Um senhor da guerra cruel. Acreditava que quando morresse iria para o Salão dos Ossos, o lar das almas de grandes guerreiros. No pós-vida, se deparou com um monte de nada. Sua ira foi tão grande que sua alma conseguiu voltar ao mundo dos vivos.
@@ -234,9 +234,9 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
 <img src="images/chefoes/veigar.jpg" alt="veigar" width="600" height="350">
 <br><br>
 
-| Classe                | Habilidade Especial    | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
-|-----------------------|------------------------|-------|-----------------|---------------------|-----------|---------------------|
-| Mago                  | Explosão Primordial    | 630   | 50              | 100                 | 40        | 40                  |
+| Classe                             | Habilidade Especial    | Vida  | Dano de Ataque  | Poder de Habilidade | Armadura  | Resistência Mágica  |
+|------------------------------------|------------------------|-------|-----------------|---------------------|-----------|---------------------|
+| SUPER MAGO DO MAL                  | Explosão Primordial    | 630   | 50              | 100                 | 40        | 40                  |
 
 <p style="text-align: justify">
     <b>Descrição de Personagem:</b> Já foi um escravo nas mãos de Mordekaiser. Agora que está livre, quer mostrar para todo o mundo que é o Verdadeiro Senhor Supremo do Mal! (O tempo em que passou sendo escravo de Mordekaiser obviamente não lhe fez bem.)
@@ -386,7 +386,7 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
   1. Jogador encontra um Inimigo.
   2. Escolhe uma ação: Atacar | Defender | Habilidade Especial | Fugir
   3. Jogador rola dado (D20).
-  4. Programa calcula dano: (dado + atributo) * % bônus de Item
+  4. Programa calcula dano: (dado + Dano de Ataque) para Ataque Básico | (dado + Dano de Habilidade Especial + Poder de Habilidade) para Habilidade Especial
   5. Compara com a defesa do Inimigo e aplica o dano.
   6. Se o Inimigo sobreviver, ele realiza seu ataque (também com um D20).
   7. O Combate continua até que a Vida de um dos dois chegue a zero.
@@ -397,17 +397,361 @@ Este repositório corresponde a um projeto que busca simular um RPG de mesa e fo
   * **Tesouro:** Escolhe um Item Intermediário (Bastão Desnecessariamente Grande, Espada G.p.C., Passos de Mercúrio)
   * **Cura:** Encontra uma Poção de Vida, que restaura um pouco da Vida. A cura pode ultrapassar o limite de pontos de Vida.
   * **Chefão:** Entra em combate com o Chefão da região (LeBlanc, Mordekaiser, Veigar)
+
+
+## Linguagem
+C (Padrão C99)
   
 ## Como compilar e jogar
+### No linux
 1. Instale o gcc ('sudo apt install build-essential')
 2. Compile: 'gcc -Wall -Wextra -o jogo src/main.c -lm'
 3. Execute: './jogo'
 
+### No Windows
+1. Instale o compilador: Baixe e instale o MSYS2. Abra o terminal dele e digite (pacman -S mingw-w64-ucrt-x86_64-gcc) 
+(Nota: Lembre-se de adicionar a pasta bin do MinGW nas Variáveis de Ambiente / PATH do Windows para que o comando gcc funcione no CMD ou PowerShell).
+2. Compile: (gcc -Wall -Wextra -o jogo.exe src/main.c -lm)
+3. Execute (jogo.exe) (no CMD) ou (.\jogo.exe) (no PowerShell)
+
+### No macOS
+1. Instale as ferramentas de compilação: Abra o Terminal e digite (xcode-select --install)
+2. Compile (gcc -Wall -Wextra -o jogo src/main.c -lm)
+3. Execute (./jogo)
+
 ## Sobre o código
-Aaa.
+## Principais Enums e Structs
+### Campeões
+```c
+// Definição do tipo de Campeão
+#ifndef CAMPEOES_H
+#define CAMPEOES_H
+
+typedef enum { MAGO, ATIRADOR_DE_DANO_FISICO, TANQUE, SIPER_MAGO_DO_MAL } ClasseCampeao;
+
+typedef struct {
+    char nome[20];
+    ClasseCampeao classe;
+    char habilidadeEspecial[40];
+    int vida, vida_base;
+    int tem_anjo_guardiao;
+    int danoDeAtaque, poderDeHabilidade, danoHabilidadeEspecial, armadura, resistenciaMagica;
+} Campeao;
+
+
+Campeao criar_ryze() {
+    Campeao campeao_escolhido;
+
+    strcpy(campeao_escolhido.nome, "Ryze");
+    campeao_escolhido.classe = MAGO;
+    strcpy(campeao_escolhido.habilidadeEspecial, "Fluxo de Feitiço");
+    campeao_escolhido.vida = 620;
+    campeao_escolhido.vida_base = campeao_escolhido.vida;
+    campeao_escolhido.tem_anjo_guardiao = 0;
+    campeao_escolhido.danoDeAtaque = 55;
+    campeao_escolhido.poderDeHabilidade = 110;
+    campeao_escolhido.danoHabilidadeEspecial = 30;
+    campeao_escolhido.armadura = 22;
+    campeao_escolhido.resistenciaMagica = 32;
+
+    return campeao_escolhido;
+}
+
+
+Campeao criar_kaisa() {
+    Campeao campeao_escolhido;
+
+    strcpy(campeao_escolhido.nome, "Kai'sa");
+    campeao_escolhido.classe = ATIRADOR_DE_DANO_FISICO;
+    strcpy(campeao_escolhido.habilidadeEspecial, "Exploradora do Vazio");
+    campeao_escolhido.vida = 640;
+    campeao_escolhido.vida_base = campeao_escolhido.vida;
+    campeao_escolhido.tem_anjo_guardiao = 0;
+    campeao_escolhido.danoDeAtaque = 59;
+    campeao_escolhido.poderDeHabilidade = 100;
+    campeao_escolhido.danoHabilidadeEspecial = 15;
+    campeao_escolhido.armadura = 25;
+    campeao_escolhido.resistenciaMagica = 33;
+
+    return campeao_escolhido;
+}
+
+
+Campeao criar_volibear() {
+    Campeao campeao_escolhido;
+
+    strcpy(campeao_escolhido.nome, "Volibear");
+    campeao_escolhido.classe = TANQUE;
+    strcpy(campeao_escolhido.habilidadeEspecial, "Emissário da Tempestadade");
+    campeao_escolhido.vida = 650;
+    campeao_escolhido.vida_base = campeao_escolhido.vida;
+    campeao_escolhido.tem_anjo_guardiao = 0;
+    campeao_escolhido.danoDeAtaque = 65;
+    campeao_escolhido.poderDeHabilidade = 90;
+    campeao_escolhido.danoHabilidadeEspecial = 20;
+    campeao_escolhido.armadura = 35;
+    campeao_escolhido.resistenciaMagica = 32;
+
+    return campeao_escolhido;
+}
+
+#endif
+```
+
+### Casas do Tabuleiro
+```c
+// Definição do tipo de casa, utilizando ENUM
+#include "monstros.h"
+
+#ifndef CASAS_H
+#define CASAS_H
+
+typedef enum { VAZIA, COMBATE, TESOURO, CURA, ARMADILHA, CHEFAO } TipoCasa;
+
+typedef struct Chefao Chefao;
+
+typedef struct {
+    int pontos_de_vida;
+} Cura;
+
+typedef struct {
+    int dano;
+} Armadilha;
+
+typedef struct {
+    char nome[50];
+    int bonus_dano;
+    int bonus_ap;
+    int bonus_armadura;
+    int bonus_mr;
+} Tesouro;
+
+
+typedef struct {
+    TipoCasa tipo;
+    Monstro *monstros; // Há batalhas contra Monstros solos ou em bandos
+    int qtd_monstros;    
+    Tesouro *tesouros;
+    Chefao *chefao;
+    Cura *cura;
+    Armadilha *armadilha;
+    int visitada;
+} Casa;
+
+#endif
+```
+
+### Monstros
+```c
+#ifndef MONSTROS_H
+#define MONSTROS_H
+
+#include <string.h>
+#include "campeoes.h" // Para reaproveitar o enum de Classes
+
+typedef struct {
+    char nome[50];
+    ClasseCampeao classe;
+    char habilidadeEspecial[50];
+    int vida;
+    int danoDeAtaque;
+    int poderDeHabilidade;
+    int armadura;
+    int resistenciaMagica;
+} Monstro;
+
+// Região 1: Icathia
+Monstro criar_espia_rosa_negra(void) {
+    Monstro m;
+    strcpy(m.nome, "Espiã da Rosa Negra");
+    m.classe = MAGO;
+    strcpy(m.habilidadeEspecial, "Reputação");
+    m.vida = 420;
+    m.danoDeAtaque = 35;
+    m.poderDeHabilidade = 1000;
+    m.armadura = 22;
+    m.resistenciaMagica = 32;
+    return m;
+}
+
+// Região 2: Reino da Morte (aparece em trio!)
+Monstro criar_espectro_agrilhoado(void) {
+    Monstro m;
+    strcpy(m.nome, "Espectro Agrilhoado");
+    m.classe = MAGO;
+    strcpy(m.habilidadeEspecial, "Último Suspiro");
+    m.vida = 400;
+    m.danoDeAtaque = 55;
+    m.poderDeHabilidade = 100;
+    m.armadura = 10;
+    m.resistenciaMagica = 5;
+    return m;
+}
+
+// Região 3: Confins de Bandópolis
+Monstro criar_tenor_do_terror(void) {
+    Monstro m;
+    strcpy(m.nome, "Tenor do Terror");
+    m.classe = MAGO;
+    strcpy(m.habilidadeEspecial, "Magia Impactante");
+    m.vida = 500;
+    m.danoDeAtaque = 55;
+    m.poderDeHabilidade = 120;
+    m.armadura = 20;
+    m.resistenciaMagica = 20;
+    return m;
+}
+
+#endif
+```
+
+### Chefões
+```c
+#ifndef CHEFOES_H
+#define CHEFOES_H
+
+#include <string.h>
+
+Monstro criar_leblanc(int espias_derrotadas) {
+    Monstro leblanc;
+    strcpy(leblanc.nome, "LeBlanc, A Farsante");
+    strcpy(leblanc.habilidadeEspecial, "Distorção");
+    leblanc.vida = 620;
+    leblanc.danoDeAtaque = 55;
+    leblanc.poderDeHabilidade = 110 + (25 * espias_derrotadas); // Bônus pelas espiãs!
+    leblanc.armadura = 22;
+    leblanc.resistenciaMagica = 32;
+    return leblanc;
+}
+
+Monstro criar_mordekaiser() {
+    Monstro morde;
+    strcpy(morde.nome, "Mordekaiser, O Ravenã de Ferro");
+    strcpy(morde.habilidadeEspecial, "Reino da Morte");
+    morde.vida = 1100;
+    morde.danoDeAtaque = 60;
+    morde.poderDeHabilidade = 100;
+    morde.armadura = 35;
+    morde.resistenciaMagica = 30;
+    return morde;
+}
+
+Monstro criar_veigar() {
+    Monstro veigar;
+    strcpy(veigar.nome, "Veigar, O Pequeno Mestre do Mal");
+    strcpy(veigar.habilidadeEspecial, "Explosão Primordial");
+    veigar.vida = 630;
+    veigar.danoDeAtaque = 50;
+    veigar.poderDeHabilidade = 100;
+    veigar.armadura = 40;
+    veigar.resistenciaMagica = 40;
+    return veigar;
+}
+
+#endif
+```
+
+## Exemplo de função (Tabuleiro)
+```c
+int definir_tabuleiro(Casa tabuleiro[3][10]) {
+    for (int i = 0; i < 3; i++) {
+        TipoCasa baralho[9] = {CURA, ARMADILHA, ARMADILHA, VAZIA, TESOURO, COMBATE, COMBATE, COMBATE, COMBATE};
+
+        // Embaralha
+        for (int j = 0; j < 9; j++) {
+            int r = rand() % 9;
+            TipoCasa temp = baralho[j];
+            baralho[j] = baralho[r];
+            baralho[r] = temp;
+        }
+
+        for (int j = 0; j < 10; j++) {
+            if (j == 9) {
+                tabuleiro[i][j].tipo = CHEFAO;
+                tabuleiro[i][j].qtd_monstros = 1;
+    
+                tabuleiro[i][j].monstros = malloc(1 * sizeof(Monstro));
+
+                if (i == 0) {
+                    tabuleiro[i][j].monstros[0] = criar_leblanc(0);
+                } else if (i == 1) {
+                    tabuleiro[i][j].monstros[0] = criar_mordekaiser();
+                } else if (i == 2) {
+                    tabuleiro[i][j].monstros[0] = criar_veigar();
+                }
+            } else {
+                tabuleiro[i][j].tipo = baralho[j];
+
+                // Casa de Cura
+                if (tabuleiro[i][j].tipo == CURA) {
+                    tabuleiro[i][j].cura = malloc(sizeof(Cura));
+                    tabuleiro[i][j].cura->pontos_de_vida = 50;
+                }
+
+                // Casa de Armadilha
+                if (tabuleiro[i][j].tipo == ARMADILHA) {
+                    tabuleiro[i][j].armadilha = malloc(sizeof(Armadilha));
+                    tabuleiro[i][j].armadilha->dano = 20;
+                }
+
+                if (tabuleiro[i][j].tipo == TESOURO) {
+                    tabuleiro[i][j].tesouros = malloc(3 * sizeof(Tesouro));
+
+                    // Item de Dano Físico
+                    strcpy(tabuleiro[i][j].tesouros[0].nome, "Espada G.p.C.");
+                    tabuleiro[i][j].tesouros[0].bonus_dano = 20;
+                    tabuleiro[i][j].tesouros[0].bonus_ap = 0;
+                    tabuleiro[i][j].tesouros[0].bonus_armadura = 0;
+                    tabuleiro[i][j].tesouros[0].bonus_mr = 0;
+
+                    // Item de Poder de Habilidade
+                    strcpy(tabuleiro[i][j].tesouros[1].nome, "Bastão Desnecessariamente Grande");
+                    tabuleiro[i][j].tesouros[1].bonus_dano = 0;
+                    tabuleiro[i][j].tesouros[1].bonus_ap = 25;
+                    tabuleiro[i][j].tesouros[1].bonus_armadura = 0;
+                    tabuleiro[i][j].tesouros[1].bonus_mr = 0;
+
+                    // Item de Resistência
+                    strcpy(tabuleiro[i][j].tesouros[2].nome, "Passos de Mercúrio");
+                    tabuleiro[i][j].tesouros[2].bonus_dano = 0;
+                    tabuleiro[i][j].tesouros[2].bonus_ap = 0;
+                    tabuleiro[i][j].tesouros[2].bonus_armadura = 12;
+                    tabuleiro[i][j].tesouros[2].bonus_mr = 12;
+                }
+
+                // Casa de Combate
+                if (tabuleiro[i][j].tipo == COMBATE) {
+                    if (i == 0) {
+                        // Região 1: Icathia (Espiã da Rosa Negra)
+                        tabuleiro[i][j].qtd_monstros = 1;
+                        tabuleiro[i][j].monstros = malloc(1 * sizeof(Monstro));
+                        tabuleiro[i][j].monstros[0] = criar_espia_rosa_negra();
+                    } 
+                    else if (i == 1) {
+                        // Região 2: Reino da Morte (Espectros Agrilhoados)
+                        tabuleiro[i][j].qtd_monstros = 3;
+                        tabuleiro[i][j].monstros = malloc(3 * sizeof(Monstro));
+                        for (int k = 0; k < 3; k++) {
+                            tabuleiro[i][j].monstros[k] = criar_espectro_agrilhoado();
+                        }
+                    } 
+                    else if (i == 2) {
+                        // Região 3: Confins de Bandópolis (Tenor do Terror)
+                        tabuleiro[i][j].qtd_monstros = 1;
+                        tabuleiro[i][j].monstros = malloc(1 * sizeof(Monstro));
+                        tabuleiro[i][j].monstros[0] = criar_tenor_do_terror();
+                    }
+                }
+            }
+        }
+
+    }
+    return 0;
+}
+```
 
 ## Vídeo de Demonstração
-Assista no XXX: link
+Assista no XXX: https://drive.google.com/drive/folders/139k-DcJ_ZCbzcnmbD9kQEwCcxnNElWLh?usp=drive_link
 
 ## Aviso Legal
 Este é um projeto acadêmico sem fins lucrativos. **O Sumiço de URF** não é endossado pela Riot Games e não reflete as visões ou opiniões da Riot Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de League of Legends. League of Legends, Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc.
