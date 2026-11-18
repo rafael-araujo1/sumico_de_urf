@@ -751,7 +751,7 @@ int definir_tabuleiro(Casa tabuleiro[3][10]) {
 ```
 
 ## Vídeo de Demonstração
-Assista no XXX: https://drive.google.com/drive/folders/139k-DcJ_ZCbzcnmbD9kQEwCcxnNElWLh?usp=drive_link
+Assista no Google Drive: https://drive.google.com/drive/folders/139k-DcJ_ZCbzcnmbD9kQEwCcxnNElWLh?usp=drive_link
 
 ## Aviso Legal
 Este é um projeto acadêmico sem fins lucrativos. **O Sumiço de URF** não é endossado pela Riot Games e não reflete as visões ou opiniões da Riot Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de League of Legends. League of Legends, Riot Games e todas as propriedades associadas são marcas comerciais ou marcas registradas da Riot Games, Inc.
